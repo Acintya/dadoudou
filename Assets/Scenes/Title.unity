@@ -268,7 +268,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2f6b871055c216b45b4488d52b472f99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dfa5840596f50eb49949db9c07f57792, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -319,7 +319,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.7, y: 167.75}
+  m_AnchoredPosition: {x: -11.7, y: 180}
   m_SizeDelta: {x: 1110.4, y: 335.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807205549
@@ -343,7 +343,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 73be72ceb92b0df42bc0ab430b9a781f, type: 3}
+    m_Font: {fileID: 12800000, guid: 7a430ccf66d9e764984a72db9d4a135a, type: 3}
     m_FontSize: 131
     m_FontStyle: 0
     m_BestFit: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Da Doudou
+  m_Text: "\u6C99\u6F20\u8FF7\u8DEF\u6A21\u64EC\u5668"
 --- !u!222 &807205550
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -488,7 +488,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 73be72ceb92b0df42bc0ab430b9a781f, type: 3}
+    m_Font: {fileID: 12800000, guid: 7a430ccf66d9e764984a72db9d4a135a, type: 3}
     m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 0
@@ -500,7 +500,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play
+  m_Text: "\u958B\u59CB\u8FF7\u8DEF"
 --- !u!222 &1354042351
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -746,8 +746,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -135}
-  m_SizeDelta: {x: 412, y: 162}
+  m_AnchoredPosition: {x: 0, y: -188}
+  m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1912787348
 MonoBehaviour:
@@ -773,8 +773,8 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
+    m_ColorMultiplier: 4.7
+    m_FadeDuration: 0
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -893,6 +893,11 @@ PrefabInstance:
     - target: {fileID: 4000012658031140, guid: 9903edbbc168ed047b2cad6e6c958fcd, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012167538766, guid: 9903edbbc168ed047b2cad6e6c958fcd,
+        type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9903edbbc168ed047b2cad6e6c958fcd, type: 3}
